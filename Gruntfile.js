@@ -19,8 +19,12 @@ module.exports = function(grunt) {
     // },
     sass: {
       dist: {
+        options: {
+          style: 'compressed'
+        },
         files: {
-          'css/hw.css': ['scss/hw.scss']
+          'css/hw.min.css': ['scss/hw.scss'],
+          'css/grp.min.css': ['scss/grp.scss']
         }
       }
     },
