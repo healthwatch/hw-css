@@ -3,40 +3,36 @@
   background: $default;
   color: $text-color;
 }
-
 .bg-primary {
   background: $primary;
   color: white;
 }
-
 .bg-secondary {
   background: $secondary;
   color: white;
 }
-
 .bg-danger {
   background: $danger;
   color: white;
 }
-
 .bg-warning {
   background: $warning;
   color: white;
 }
-
 .bg-success {
   background: $success;
   color: white;
 }
 
-.bg-blue {
-  background: $blue;
+// Old GRP themes
+.bg-blizzard-blue {
+  background: $blizzard-blue;
 }
 
-.bg-light-blue {
-  background: $light-blue;
+.bg-humming-bird {
+  background: $humming-bird;
 }
 
-.bg-super-light-blue {
-  background: $super-light-blue;
+.bg-humming-bird-light {
+  background: $humming-bird-light;
 }

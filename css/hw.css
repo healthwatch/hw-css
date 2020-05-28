@@ -148,15 +148,15 @@ code, kbd, pre, samp {
   color: white;
 }
 
-.bg-blue {
+.bg-blizzard-blue {
   background: #b0e1f3;
 }
 
-.bg-light-blue {
+.bg-humming-bird {
   background: #cdecf7;
 }
 
-.bg-super-light-blue {
+.bg-humming-bird-light {
   background: #e3f4fb;
 }
 
@@ -397,19 +397,19 @@ code, kbd, pre, samp {
 }
 
 .outline-gray {
-  border: #eee 1px solid;
+  border: #f6f6f6 1px solid;
 }
 
-.outline-blue {
+.outline-blizzard-blue {
   border: #b0e1f3 1px solid;
 }
 
-.outline-light-blue {
+.outline-humming-bird {
   border: #cdecf7 1px solid;
 }
 
-.outline-light-blue {
-  border: #cdecf7 1px solid;
+.outline-humming-bird-light {
+  border: #e3f4fb 1px solid;
 }
 
 .outline-top-primary {
@@ -428,11 +428,11 @@ code, kbd, pre, samp {
   border-bottom: 1px solid #3B92C7;
 }
 
-.outline-top-blue {
+.outline-top-blizzard-blue {
   border-top: 1px solid #b0e1f3;
 }
 
-.outline-bottom-blue {
+.outline-bottom-blizzard-blue {
   border-bottom: 1px solid #b0e1f3;
 }
 
