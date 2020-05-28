@@ -1,6 +1,16 @@
 // .bg styoes
+.bg-default {
+  background: $default;
+  color: $text-color;
+}
+
 .bg-primary {
   background: $primary;
+  color: white;
+}
+
+.bg-secondary {
+  background: $secondary;
   color: white;
 }
 

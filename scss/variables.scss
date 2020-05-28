@@ -1,12 +1,9 @@
 // Variables
 $white: #fff;
+$gray-1: #e7e7e7;
+$gray-dark: #737272;
 $dark-gray: #808080;
 $black: #000;
-$dark-blue: #3b83b5;
-$cyan: #74b1dd;
-$green: #81BE23;
-$orange: #FF7D00;
-$red: #D80878;
 
 // Remnants colors from the  previous template
 $gray: #eee;
@@ -15,14 +12,52 @@ $blue: #b0e1f3;
 $light-blue: #cdecf7;
 $super-light-blue: #e3f4fb;
 
-$primary: $dark-blue;
-$secondary: $green;
-$success: $green;
-$info: $cyan;
-$warning: $orange;
-$danger: $red;
+// Theme 1
+$boston-blue: #3B92C7;
+$dove-gray: #706F6F;
+$dusty-gray: #ddd;
+$cloud-burst: #243a59;
+$atlantis: #81BE23;
+$flush-orange: #ff7d01;
+$razzmatazz: #D80878;
 
-$regular: 14px;
-$small: 12px;
+$primary: $boston-blue;
+$default: $gray-1;
+$secondary: $dove-gray;
+$success: $atlantis;
+$info: $cloud-burst;
+$warning: $flush-orange;
+$danger: $razzmatazz;
+
+$text-color: #666;
+
+// Theme 2
+// $boston-blue: #3b83b5;
+// $dusty-gray: #999999;
+// $viking: #74b1dd;
+// $atlantis: #81BE23;
+// $flush-orange: #FF7D00;
+// $razzmatazz: #D80878;
+
+// $primary: $boston-blue;
+// $default: $gray-1;
+// $secondary: $dusty-gray;
+// $success: $atlantis;
+// $info: $viking;
+// $warning: $flush-orange;
+// $danger: $razzmatazz;
+
+// $text-color: #666;
+
+$header-font: Georgia;
+$text-font: Arial;
+
+$large: 15px;
+$regular: 13px;
+$small: 11px;
 $extra-small: 9px;
 $extra-extra-small: 8px;
+
+p {
+  line-height: 1.3em;
+}

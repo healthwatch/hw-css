@@ -56,6 +56,10 @@
   border-bottom: 1px solid $white;
 }
 
+.outline-rounded-default {
+  border: 1px solid $default;
+  border-radius: 3px;
+}
 .outline-rounded-primary {
   border: 1px solid $primary;
   border-radius: 3px;

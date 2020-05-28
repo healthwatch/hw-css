@@ -2,7 +2,7 @@
 @import 'variables';
 
 body {
-  color: #333;
+  color: $text-color;
 }
 
 body,
@@ -10,7 +10,17 @@ input,
 select,
 table,
 textarea {
-  font: $regular Arial;
+  font: $regular $text-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
 }
 
 hr {
@@ -20,7 +30,13 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
+code, kbd, pre, samp {
+  font-size: 13px;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
 @import 'alert';
+@import 'badge';
 @import 'bg';
 @import 'btn';
 @import 'card';
@@ -28,3 +44,5 @@ hr {
 @import 'outline';
 @import 'text';
 @import 'm';
+
+@import 'col';

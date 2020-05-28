@@ -6,15 +6,33 @@
   border: 1px solid transparent;
   border-radius: .25rem;
 }
-
-.alert-danger {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
+.alert-default {
+  color: $text-color;
+  background-color: lighten($default, 45%);
+  border-color: $default;
 }
-
+.alert-primary {
+  color: $primary;
+  background-color: lighten($primary, 45%);
+  border-color: $primary;
+}
+.alert-secondary {
+  color: $secondary;
+  background-color: lighten($secondary, 45%);
+  border-color: $secondary;
+}
 .alert-warning {
-  color: #856404;
-  background-color: #fff3cd;
-  border-color: #ffeeba;
+  color: $warning;
+  background-color: lighten($warning, 45%);
+  border-color: $warning;
+}
+.alert-danger {
+  color: $danger;
+  background-color: lighten($danger, 45%);
+  border-color: $danger;
+}
+.alert-success {
+  color: $success;
+  background-color: lighten($success, 45%);
+  border-color: $success;
 }
