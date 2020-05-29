@@ -160,6 +160,10 @@ code, kbd, pre, samp {
   color: white;
 }
 
+.bg-white {
+  background: #fff;
+}
+
 .bg-blizzard-blue {
   background: #b0e1f3;
 }
