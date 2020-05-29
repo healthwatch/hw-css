@@ -13,6 +13,14 @@ textarea {
   font: $regular $text-font;
 }
 
+.text-font {
+  font-family: $text-font;
+}
+
+.header-font {
+  font-family: $header-font;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
   font-weight: normal;
