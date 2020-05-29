@@ -633,7 +633,7 @@ hr {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    min-width: 0;
+    min-width: 0 !important;
     background: none;
   }
 
@@ -643,7 +643,7 @@ hr {
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   body {
-    min-width: 0;
+    min-width: 0 !important;
     background: none;
   }
 
@@ -653,7 +653,7 @@ hr {
 }
 @media (min-width: 481px) and (max-width: 767px) {
   body {
-    min-width: 0;
+    min-width: 0 !important;
     background: none;
   }
 
@@ -663,7 +663,7 @@ hr {
 }
 @media (min-width: 321px) and (max-width: 480px) {
   body {
-    min-width: 0;
+    min-width: 0 !important;
     background: none;
   }
 
@@ -673,7 +673,7 @@ hr {
 }
 @media (min-width: 200px) and (max-width: 320px) {
   body {
-    min-width: 0;
+    min-width: 0 !important;
     background: none;
   }
 
