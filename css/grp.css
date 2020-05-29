@@ -36,9 +36,9 @@ hr {
 }
 
 .alert-primary {
-  color: #3b83b5;
-  background-color: #e0edf5;
-  border-color: #3b83b5;
+  color: #1887B9;
+  background-color: #c0e6f7;
+  border-color: #1887B9;
 }
 
 .alert-secondary {
@@ -71,7 +71,7 @@ hr {
 }
 
 .bg-primary {
-  background: #3b83b5;
+  background: #1887B9;
   color: white;
 }
 
@@ -137,12 +137,12 @@ hr {
 }
 
 .btn-primary {
-  background: #3b83b5;
+  background: #1887B9;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #2e678f;
-  border-color: #2e678f;
+  background-color: #12668c;
+  border-color: #12668c;
 }
 
 .btn-secondary {
@@ -206,7 +206,7 @@ hr {
 }
 
 .card-bg-primary {
-  background: #3b83b5;
+  background: #1887B9;
   color: white;
 }
 
@@ -254,7 +254,7 @@ hr {
 }
 
 .card-fold-bg-primary.fold-bottom-right:before {
-  border-color: #3b83b5 white;
+  border-color: #1887B9 white;
 }
 
 .card-fold-bg-danger.fold-bottom-right:before {
@@ -288,7 +288,7 @@ hr {
 }
 
 .fold-bg-primary.fold-bottom-right:before {
-  border-color: #3b83b5 white;
+  border-color: #1887B9 white;
 }
 
 .fold-bg-danger.fold-bottom-right:before {
@@ -324,7 +324,7 @@ hr {
 }
 
 .outline-primary {
-  border: #3b83b5 1px solid;
+  border: #1887B9 1px solid;
 }
 
 .outline-info {
@@ -364,19 +364,19 @@ hr {
 }
 
 .outline-top-primary {
-  border-top: 1px solid #3b83b5;
+  border-top: 1px solid #1887B9;
 }
 
 .outline-left-primary {
-  border-left: 1px solid #3b83b5;
+  border-left: 1px solid #1887B9;
 }
 
 .outline-bottom-primary {
-  border-bottom: 1px solid #3b83b5;
+  border-bottom: 1px solid #1887B9;
 }
 
 .outline-right-primary {
-  border-right: 1px solid #3b83b5;
+  border-right: 1px solid #1887B9;
 }
 
 .outline-top-blizzard-blue {
@@ -392,7 +392,7 @@ hr {
 }
 
 .outline-rounded-primary {
-  border: 1px solid #3b83b5;
+  border: 1px solid #1887B9;
   border-radius: 3px;
 }
 
@@ -432,7 +432,7 @@ hr {
 }
 
 .text-primary {
-  color: #3b83b5;
+  color: #1887B9;
 }
 
 .text-info {
@@ -461,6 +461,10 @@ hr {
 
 .text-lg {
   font-size: 15px;
+}
+
+.m-t-1 {
+  margin-top: 1px;
 }
 
 .m-t-5 {
@@ -495,6 +499,10 @@ hr {
   margin-top: 100px;
 }
 
+.m-r-1 {
+  margin-right: 1px;
+}
+
 .m-r-5 {
   margin-right: 5px;
 }
@@ -511,6 +519,14 @@ hr {
   margin-right: 20px;
 }
 
+.m-r-50 {
+  margin-right: 50px;
+}
+
+.m-b-1 {
+  margin-bottom: 1px;
+}
+
 .m-b-5 {
   margin-bottom: 5px;
 }
@@ -525,6 +541,10 @@ hr {
 
 .m-b-20 {
   margin-bottom: 20px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
 }
 
 .m-l-1 {

@@ -30,6 +30,10 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
+p {
+  line-height: 1.3em;
+}
+
 code, kbd, pre, samp {
   font-size: 13px;
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -44,5 +48,6 @@ code, kbd, pre, samp {
 @import 'outline';
 @import 'text';
 @import 'm';
+@import 'icon';
 
 @import 'col';
