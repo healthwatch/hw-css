@@ -19,11 +19,14 @@
 .outline-danger {
   border: $danger 1px solid;
 }
+
+// Old GRP themes
+.outline-light-gray {
+  border: $light-gray 1px solid;
+}
 .outline-gray {
   border: $gray 1px solid;
 }
-
-// Old GRP themes
 .outline-blizzard-blue {
   border: $blizzard-blue 1px solid;
 }
@@ -40,11 +43,11 @@
 .outline-left-primary {
   border-left: 1px solid $primary;
 }
-.outline-right-primary {
-  border-right: 1px solid $primary;
-}
 .outline-bottom-primary {
   border-bottom: 1px solid $primary;
+}
+.outline-right-primary {
+  border-right: 1px solid $primary;
 }
 
 .outline-top-blizzard-blue {
@@ -58,12 +61,16 @@
   border-bottom: 1px solid $white;
 }
 
+.outline-rounded-primary {
+  border: 1px solid $primary;
+  border-radius: 3px;
+}
 .outline-rounded-default {
   border: 1px solid $default;
   border-radius: 3px;
 }
-.outline-rounded-primary {
-  border: 1px solid $primary;
+.outline-rounded-secondary {
+  border: 1px solid $secondary;
   border-radius: 3px;
 }
 .outline-rounded-info {
@@ -72,6 +79,10 @@
 }
 .outline-rounded-success {
   border: 1px solid $success;
+  border-radius: 3px;
+}
+.outline-rounded-info {
+  border: 1px solid $info;
   border-radius: 3px;
 }
 .outline-rounded-warning {

@@ -1,9 +1,9 @@
 // Variables
 $white: #fff;
-$gray-1: #e7e7e7;
-$gray-dark: #737272;
-$dark-gray: #808080;
 $black: #000;
+
+$mercury: #e7e7e7;
+$dove-gray: #737272;
 
 // Remnants colors from the  previous template
 $wild-sand-light: #eee;
@@ -12,7 +12,8 @@ $blizzard-blue: #b0e1f3;
 $humming-bird: #cdecf7;
 $humming-bird-light: #e3f4fb;
 
-$gray: $wild-sand;
+$gray: #808080;
+$light-gray: $wild-sand;
 
 // Theme 1
 // $boston-blue: #3B92C7;
@@ -42,7 +43,7 @@ $flush-orange: #FF7D00;
 $razzmatazz: #D80878;
 
 $primary: $boston-blue;
-$default: $gray-1;
+$default: $mercury;
 $secondary: $dusty-gray;
 $success: $atlantis;
 $info: $viking;

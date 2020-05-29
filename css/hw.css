@@ -396,8 +396,12 @@ code, kbd, pre, samp {
   border: #D80878 1px solid;
 }
 
-.outline-gray {
+.outline-light-gray {
   border: #f6f6f6 1px solid;
+}
+
+.outline-gray {
+  border: #808080 1px solid;
 }
 
 .outline-blizzard-blue {
@@ -420,12 +424,12 @@ code, kbd, pre, samp {
   border-left: 1px solid #3b83b5;
 }
 
-.outline-right-primary {
-  border-right: 1px solid #3b83b5;
-}
-
 .outline-bottom-primary {
   border-bottom: 1px solid #3b83b5;
+}
+
+.outline-right-primary {
+  border-right: 1px solid #3b83b5;
 }
 
 .outline-top-blizzard-blue {
@@ -440,13 +444,18 @@ code, kbd, pre, samp {
   border-bottom: 1px solid #fff;
 }
 
+.outline-rounded-primary {
+  border: 1px solid #3b83b5;
+  border-radius: 3px;
+}
+
 .outline-rounded-default {
   border: 1px solid #e7e7e7;
   border-radius: 3px;
 }
 
-.outline-rounded-primary {
-  border: 1px solid #3b83b5;
+.outline-rounded-secondary {
+  border: 1px solid #999999;
   border-radius: 3px;
 }
 
@@ -457,6 +466,11 @@ code, kbd, pre, samp {
 
 .outline-rounded-success {
   border: 1px solid #81BE23;
+  border-radius: 3px;
+}
+
+.outline-rounded-info {
+  border: 1px solid #74b1dd;
   border-radius: 3px;
 }
 
