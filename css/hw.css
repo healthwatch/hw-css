@@ -532,6 +532,10 @@ code, kbd, pre, samp {
   font-size: 11px;
 }
 
+.text-xs {
+  font-size: 9px;
+}
+
 .m-t-1 {
   margin-top: 1px;
 }
