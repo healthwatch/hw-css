@@ -14,6 +14,14 @@ textarea {
   font: 13px Arial;
 }
 
+.text-font {
+  font-family: Arial;
+}
+
+.header-font {
+  font-family: Georgia;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia;
   font-weight: normal;
@@ -520,6 +528,10 @@ code, kbd, pre, samp {
   font-size: 15px;
 }
 
+.text-sm {
+  font-size: 11px;
+}
+
 .m-t-1 {
   margin-top: 1px;
 }
@@ -630,11 +642,18 @@ code, kbd, pre, samp {
 
 .hw-icon {
   padding-left: 35px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .hw-icon-comments {
   background: url("../img/comments.png") no-repeat;
-  background-size: 32px;
+  background-size: 26px 26px;
+}
+
+.hw-icon-cog {
+  background: url("../img/cog.png") no-repeat;
+  background-size: 26px 26px;
 }
 
 .container {
@@ -667,43 +686,75 @@ code, kbd, pre, samp {
   width: 50%;
 }
 
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+@media (min-width: 1281px) {
+  .col-lg-none {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .col-lg-none {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    min-width: 0;
+    background: none;
+  }
+
+  .col-sm-none {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    min-width: 0;
+    background: none;
+  }
+
+  .col-sm-none {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    min-width: 0;
+    background: none;
+  }
+
+  .col-sm-none {
+    display: none;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  body {
+    min-width: 0;
+    background: none;
+  }
+
+  .col-sm-none {
+    display: none;
+  }
+}
+@media (min-width: 200px) and (max-width: 320px) {
+  body {
+    min-width: 0;
+    background: none;
+  }
+
+  .col-sm-none {
+    display: none;
+  }
+}
 @media (min-width: 1281px) {
   .col-md-1 {
     width: 8.3333333333%;
   }
 }
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .col-md-1 {
     width: 100%;
   }
 }
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 
 /*# sourceMappingURL=hw.css.map */
