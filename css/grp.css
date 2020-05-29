@@ -36,21 +36,21 @@ hr {
 }
 
 .alert-primary {
-  color: #3B92C7;
-  background-color: #eef5fa;
-  border-color: #3B92C7;
+  color: #3b83b5;
+  background-color: #e0edf5;
+  border-color: #3b83b5;
 }
 
 .alert-secondary {
-  color: #706F6F;
-  background-color: #e2e2e2;
-  border-color: #706F6F;
+  color: #999999;
+  background-color: white;
+  border-color: #999999;
 }
 
 .alert-warning {
-  color: #ff7d01;
-  background-color: #fff2e7;
-  border-color: #ff7d01;
+  color: #FF7D00;
+  background-color: #fff2e6;
+  border-color: #FF7D00;
 }
 
 .alert-danger {
@@ -71,12 +71,12 @@ hr {
 }
 
 .bg-primary {
-  background: #3B92C7;
+  background: #3b83b5;
   color: white;
 }
 
 .bg-secondary {
-  background: #706F6F;
+  background: #999999;
   color: white;
 }
 
@@ -86,7 +86,7 @@ hr {
 }
 
 .bg-warning {
-  background: #ff7d01;
+  background: #FF7D00;
   color: white;
 }
 
@@ -137,30 +137,30 @@ hr {
 }
 
 .btn-primary {
-  background: #3B92C7;
+  background: #3b83b5;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #2e75a1;
-  border-color: #2e75a1;
+  background-color: #2e678f;
+  border-color: #2e678f;
 }
 
 .btn-secondary {
-  background: #706F6F;
+  background: #999999;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #565656;
-  border-color: #565656;
+  background-color: gray;
+  border-color: gray;
 }
 
 .btn-info {
-  background: #243a59;
+  background: #74b1dd;
 }
 
 .btn-info:hover, .btn-info:focus, .btn-info:active {
-  background-color: #152235;
-  border-color: #152235;
+  background-color: #4b9ad3;
+  border-color: #4b9ad3;
 }
 
 .btn-success {
@@ -184,14 +184,14 @@ hr {
 }
 
 .btn-warning {
-  background: #ff7d01;
+  background: #FF7D00;
   color: #fff;
 }
 
 .btn-outline-warning {
-  border: 1px solid #ff7d01;
-  background: #fff2e7;
-  color: #ff7d01;
+  border: 1px solid #FF7D00;
+  background: #fff2e6;
+  color: #FF7D00;
 }
 
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
@@ -206,17 +206,17 @@ hr {
 }
 
 .card-bg-primary {
-  background: #3B92C7;
+  background: #3b83b5;
   color: white;
 }
 
 .card-bg-secondary {
-  background: #706F6F;
+  background: #999999;
   color: white;
 }
 
 .card-bg-warning {
-  background: #ff7d01;
+  background: #FF7D00;
   color: white;
 }
 
@@ -254,7 +254,7 @@ hr {
 }
 
 .card-fold-bg-primary.fold-bottom-right:before {
-  border-color: #3B92C7 white;
+  border-color: #3b83b5 white;
 }
 
 .card-fold-bg-danger.fold-bottom-right:before {
@@ -262,7 +262,7 @@ hr {
 }
 
 .card-fold-bg-warning.fold-bottom-right:before {
-  border-color: #ff7d01 white;
+  border-color: #FF7D00 white;
 }
 
 .card-fold-bg-success.fold-bottom-right:before {
@@ -288,7 +288,7 @@ hr {
 }
 
 .fold-bg-primary.fold-bottom-right:before {
-  border-color: #3B92C7 white;
+  border-color: #3b83b5 white;
 }
 
 .fold-bg-danger.fold-bottom-right:before {
@@ -296,7 +296,7 @@ hr {
 }
 
 .fold-bg-warning.fold-bottom-right:before {
-  border-color: #ff7d01 white;
+  border-color: #FF7D00 white;
 }
 
 .fold-bg-success.fold-bottom-right:before {
@@ -324,11 +324,11 @@ hr {
 }
 
 .outline-primary {
-  border: #3B92C7 1px solid;
+  border: #3b83b5 1px solid;
 }
 
 .outline-info {
-  border: #243a59 1px solid;
+  border: #74b1dd 1px solid;
 }
 
 .outline-success {
@@ -336,7 +336,7 @@ hr {
 }
 
 .outline-warning {
-  border: #ff7d01 1px solid;
+  border: #FF7D00 1px solid;
 }
 
 .outline-danger {
@@ -360,19 +360,19 @@ hr {
 }
 
 .outline-top-primary {
-  border-top: 1px solid #3B92C7;
+  border-top: 1px solid #3b83b5;
 }
 
 .outline-left-primary {
-  border-left: 1px solid #3B92C7;
+  border-left: 1px solid #3b83b5;
 }
 
 .outline-right-primary {
-  border-right: 1px solid #3B92C7;
+  border-right: 1px solid #3b83b5;
 }
 
 .outline-bottom-primary {
-  border-bottom: 1px solid #3B92C7;
+  border-bottom: 1px solid #3b83b5;
 }
 
 .outline-top-blizzard-blue {
@@ -393,12 +393,12 @@ hr {
 }
 
 .outline-rounded-primary {
-  border: 1px solid #3B92C7;
+  border: 1px solid #3b83b5;
   border-radius: 3px;
 }
 
 .outline-rounded-info {
-  border: 1px solid #243a59;
+  border: 1px solid #74b1dd;
   border-radius: 3px;
 }
 
@@ -408,7 +408,7 @@ hr {
 }
 
 .outline-rounded-warning {
-  border: 1px solid #ff7d01;
+  border: 1px solid #FF7D00;
   border-radius: 3px;
 }
 
@@ -418,15 +418,15 @@ hr {
 }
 
 .text-primary {
-  color: #3B92C7;
+  color: #3b83b5;
 }
 
 .text-info {
-  color: #243a59;
+  color: #74b1dd;
 }
 
 .text-warning {
-  color: #ff7d01;
+  color: #FF7D00;
 }
 
 .text-danger {

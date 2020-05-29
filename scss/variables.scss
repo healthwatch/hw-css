@@ -15,41 +15,41 @@ $humming-bird-light: #e3f4fb;
 $gray: $wild-sand;
 
 // Theme 1
-$boston-blue: #3B92C7;
-$dove-gray: #706F6F;
-$dusty-gray: #ddd;
-$cloud-burst: #243a59;
-$atlantis: #81BE23;
-$flush-orange: #ff7d01;
-$razzmatazz: #D80878;
-
-$primary: $boston-blue;
-$default: $gray-1;
-$secondary: $dove-gray;
-$success: $atlantis;
-$info: $cloud-burst;
-$warning: $flush-orange;
-$danger: $razzmatazz;
-
-$text-color: #666;
-
-// Theme 2
-// $boston-blue: #3b83b5;
-// $dusty-gray: #999999;
-// $viking: #74b1dd;
+// $boston-blue: #3B92C7;
+// $dove-gray: #706F6F;
+// $dusty-gray: #ddd;
+// $cloud-burst: #243a59;
 // $atlantis: #81BE23;
-// $flush-orange: #FF7D00;
+// $flush-orange: #ff7d01;
 // $razzmatazz: #D80878;
 
 // $primary: $boston-blue;
 // $default: $gray-1;
-// $secondary: $dusty-gray;
+// $secondary: $dove-gray;
 // $success: $atlantis;
-// $info: $viking;
+// $info: $cloud-burst;
 // $warning: $flush-orange;
 // $danger: $razzmatazz;
 
 // $text-color: #666;
+
+// Theme 2
+$boston-blue: #3b83b5;
+$dusty-gray: #999999;
+$viking: #74b1dd;
+$atlantis: #81BE23;
+$flush-orange: #FF7D00;
+$razzmatazz: #D80878;
+
+$primary: $boston-blue;
+$default: $gray-1;
+$secondary: $dusty-gray;
+$success: $atlantis;
+$info: $viking;
+$warning: $flush-orange;
+$danger: $razzmatazz;
+
+$text-color: #666;
 
 $header-font: Georgia;
 $text-font: Arial;
