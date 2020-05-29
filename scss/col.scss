@@ -1,0 +1,82 @@
+$max-col-width: 100%;
+$min-col-width: $max-col-width / 12;
+$col-1: $min-col-width;
+$col-padding: 10px;
+$container-width: 998px;
+$border: 1;
+
+.container {
+  // width: $container-width;
+  margin: auto;
+}
+.row {
+  clear: both;
+}
+
+.col {
+  position: relative;
+  float: left;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.col-md-1 {
+  width: $col-1;
+}
+.col-md-2 {
+  width: $col-1 * 2;
+}
+.col-md-6 {
+  width: $max-col-width / 2;
+}
+.col-md-8 {
+  width: $max-col-width / 2;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .col-md-1 {
+      width: $min-col-width;
+  }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-1 {
+        width: $max-col-width;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 321px) and (max-width: 480px) {
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 200px) and (max-width: 320px) {
+}

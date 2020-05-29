@@ -3,6 +3,26 @@
   padding: 20px;
   border-radius: 3px;
 }
+.card-bg-primary {
+  background: $primary;
+  color: white;
+}
+.card-bg-secondary {
+  background: $secondary;
+  color: white;
+}
+.card-bg-warning {
+  background: $warning;
+  color: white;
+}
+.card-bg-danger {
+  background: $danger;
+  color: white;
+}
+.card-bg-success {
+  background: $success;
+  color: white;
+}
 .card-icon {
   font-size: 2.3em;
   margin-right: 20px;

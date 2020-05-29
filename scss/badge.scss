@@ -1,0 +1,32 @@
+.badge {
+  display: inline-block;
+  padding: .25em .5em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .5rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.badge-primary {
+  color: #fff;
+  background-color: $primary;
+}
+.badge-secondary {
+  color: #fff;
+  background-color: $secondary;
+}
+.badge-warning {
+  color: #fff;
+  background-color: $warning;
+}
+.badge-danger {
+  color: #fff;
+  background-color: $danger;
+}
+.badge-success {
+  color: #fff;
+  background-color: $success;
+}
