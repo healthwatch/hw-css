@@ -48,6 +48,18 @@ code, kbd, pre, samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.clearfix {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;

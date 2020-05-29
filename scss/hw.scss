@@ -47,6 +47,18 @@ code, kbd, pre, samp {
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.clearfix {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 @import 'alert';
 @import 'badge';
 @import 'bg';
