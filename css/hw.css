@@ -600,6 +600,10 @@ code, kbd, pre, samp {
   margin-right: 20px;
 }
 
+.m-r-25 {
+  margin-right: 25px;
+}
+
 .m-r-50 {
   margin-right: 50px;
 }
