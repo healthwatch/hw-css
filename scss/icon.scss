@@ -1,15 +1,35 @@
-.hw-icon {
-  padding-left: 35px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
+// .hw-icon {
+//   padding-left: 35px;
+//   padding-top: 2px;
+//   padding-bottom: 2px;
+// }
 
-.hw-icon-comments {
-  background: url("../img/comments.png") no-repeat;
+// .hw-icon-comments {
+//   background: url("../img/comments.png") no-repeat;
+//   background-size: 26px 26px;
+// }
+//
+// .hw-icon-cog {
+//   background: url("../img/cog.png") no-repeat;
+//   background-size: 26px 26px;
+// }
+
+.hw-icon {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
   background-size: 26px 26px;
 }
-
-.hw-icon-cog {
-  background: url("../img/cog.png") no-repeat;
+.hw-icon-bg {
+  padding: 1px 0;
+}
+.hw-icon-bg-cog {
+  padding-left: 20px;
+  background: url('../img/cog.png') no-repeat;
+  background-size: 16px 16px;
+}
+.hw-icon-bg-cog-lg {
+  padding-left: 35px;
+  background: url('../img/cog.png') no-repeat;
   background-size: 26px 26px;
 }
