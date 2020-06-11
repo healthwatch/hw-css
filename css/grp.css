@@ -479,6 +479,14 @@ hr {
   font-size: 9px;
 }
 
+.text-lg {
+  font-size: 1.3em;
+}
+
+.text-sm {
+  font-size: 0.85em;
+}
+
 .m-t-1 {
   margin-top: 1px;
 }
