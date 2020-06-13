@@ -15,4 +15,8 @@ $ bower install healthwatch/hw-css --save
 
 ## sample
 
+See examples directory for samples.
+
+## screenshot
+
 ![test](https://github.com/healthwatch/hw-css/blob/master/examples/test.png "Test")
