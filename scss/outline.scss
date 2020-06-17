@@ -1,54 +1,98 @@
-// .outline
+// .outline styles
 .outline {
   border-radius: 3px;
   padding: 5px 10px;
   margin-top: 10px;
 }
-
 .outline-primary {
   border: $primary 1px solid;
 }
-
+.outline-default {
+  border: $default 1px solid;
+}
 .outline-info {
   border: $info 1px solid;
 }
-
 .outline-success {
   border: $success 1px solid;
 }
-
 .outline-warning {
   border: $warning 1px solid;
 }
-
 .outline-danger {
   border: $danger 1px solid;
 }
 
+// Old GRP themes
+.outline-light-gray {
+  border: $light-gray 1px solid;
+}
 .outline-gray {
   border: $gray 1px solid;
 }
-
-.outline-blue {
-  border: $blue 1px solid;
+.outline-blizzard-blue {
+  border: $blizzard-blue 1px solid;
+}
+.outline-humming-bird {
+  border: $humming-bird 1px solid;
+}
+.outline-humming-bird-light {
+  border: $humming-bird-light 1px solid;
 }
 
-.outline-top-blue {
-  border-top: $blue 1px solid;
+.outline-top-primary {
+  border-top: 1px solid $primary;
+}
+.outline-left-primary {
+  border-left: 1px solid $primary;
+}
+.outline-bottom-primary {
+  border-bottom: 1px solid $primary;
+}
+.outline-right-primary {
+  border-right: 1px solid $primary;
 }
 
-.outline-bottom-blue {
-  border-bottom: $blue 1px solid;
+.outline-top-blizzard-blue {
+  border-top: 1px solid $blizzard-blue;
+}
+.outline-bottom-blizzard-blue {
+  border-bottom: 1px solid $blizzard-blue;
 }
 
 .outline-bottom-white {
-  border-bottom: $white 1px solid;
+  border-bottom: 1px solid $white;
 }
 
-.outline-light-blue {
-  border: $light-blue 1px solid;
+.outline-rounded-primary {
+  border: 1px solid $primary;
+  border-radius: 3px;
 }
-
-.outline-light-blue {
-  border: $light-blue 1px solid;
+.outline-rounded-default {
+  border: 1px solid $default;
+  border-radius: 3px;
+}
+.outline-rounded-secondary {
+  border: 1px solid $secondary;
+  border-radius: 3px;
+}
+.outline-rounded-info {
+  border: 1px solid $info;
+  border-radius: 3px;
+}
+.outline-rounded-success {
+  border: 1px solid $success;
+  border-radius: 3px;
+}
+.outline-rounded-info {
+  border: 1px solid $info;
+  border-radius: 3px;
+}
+.outline-rounded-warning {
+  border: 1px solid $warning;
+  border-radius: 3px;
+}
+.outline-rounded-danger {
+  border: 1px solid $danger;
+  border-radius: 3px;
 }

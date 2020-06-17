@@ -1,0 +1,82 @@
+// .btn styles
+.btn {
+  // padding: 5px 20px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  // font-size: 1rem;
+  // border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-default {
+  background: $default;
+  color: $text-color;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+  background-color: darken($default, 10%);
+  border-color: darken($default, 10%);
+}
+.btn-primary {
+  background: $primary;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}
+.btn-secondary {
+  background: $secondary;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: darken($secondary, 10%);
+  border-color: darken($secondary, 10%);
+}
+.btn-info {
+  background: $info;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+  background-color: darken($info, 10%);
+  border-color: darken($info, 10%);
+}
+.btn-success {
+  background: $success;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  background-color: #7ca53f !important;
+  border-color: #7ca53f !important;
+}
+.btn-danger {
+  background: $danger;
+  color: #fff;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+  color: #fff;
+  background-color: #bf2d7b !important;
+  border-color: #bf2d7b !important;
+}
+.btn-warning {
+  background: $warning;
+  color: #fff;
+}
+.btn-outline-warning {
+  border: 1px solid $warning;
+  background: lighten($warning, 45%);
+  color: $warning;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+  color: #fff;
+  background-color: #e6872e !important;
+  border-color: #e6872e !important;
+}

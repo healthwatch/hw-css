@@ -1,0 +1,87 @@
+// .card styles
+.card {
+  padding: 20px;
+  border-radius: 3px;
+}
+.card-bg-primary {
+  background: $primary;
+  color: white;
+}
+.card-bg-secondary {
+  background: $secondary;
+  color: white;
+}
+.card-bg-warning {
+  background: $warning;
+  color: white;
+}
+.card-bg-danger {
+  background: $danger;
+  color: white;
+}
+.card-bg-success {
+  background: $success;
+  color: white;
+}
+.card-icon {
+  font-size: 2.3em;
+  margin-right: 20px;
+}
+.card-fold {
+  position: relative;
+  overflow: hidden;
+}
+.card-fold-bottom-right:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 30px 30px 0 0;
+  border-style: solid;
+  border-top-left-radius: 3px;
+  -webkit-box-shadow: 3px 3px 3px 3px white;
+  -moz-box-shadow: 3px 3px 3px 3px white;
+  box-shadow: 3px 3px 3px 3px white;
+}
+.card-fold-bg-primary.fold-bottom-right:before {
+  border-color: $primary white;
+}
+.card-fold-bg-danger.fold-bottom-right:before {
+  border-color: $danger white;
+}
+.card-fold-bg-warning.fold-bottom-right:before {
+  border-color: $warning white;
+}
+.card-fold-bg-success.fold-bottom-right:before {
+  border-color: $success white;
+}
+
+// Deprecated, see .card-fold
+.fold {
+  position: relative;
+  overflow: hidden;
+}
+.fold-bottom-right:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 30px 30px 0 0;
+  border-style: solid;
+  border-top-left-radius: 3px;
+  -webkit-box-shadow: 3px 3px 3px 3px white;
+  -moz-box-shadow: 3px 3px 3px 3px white;
+  box-shadow: 3px 3px 3px 3px white;
+}
+.fold-bg-primary.fold-bottom-right:before {
+  border-color: $primary white;
+}
+.fold-bg-danger.fold-bottom-right:before {
+  border-color: $danger white;
+}
+.fold-bg-warning.fold-bottom-right:before {
+  border-color: $warning white;
+}
+.fold-bg-success.fold-bottom-right:before {
+  border-color: $success white;
+}

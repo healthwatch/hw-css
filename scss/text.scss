@@ -1,28 +1,40 @@
-// .text
+// .text styles
 .text-primary {
   color: $primary;
 }
-
 .text-info {
   color: $info;
 }
-
 .text-warning {
   color: $warning;
 }
-
 .text-danger {
   color: $danger;
 }
-
 .text-success {
   color: $success;
 }
-
 .text-center {
   text-align: center;
 }
-
 .text-muted {
   color: #999;
+}
+
+.text-lg {
+  font-size: $large;
+}
+.text-sm {
+  font-size: $small;
+}
+.text-xs {
+  font-size: $extra-small;
+}
+
+.text-lg {
+  font-size: 1.3em;
+}
+
+.text-sm {
+  font-size: 0.85em;
 }

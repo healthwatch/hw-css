@@ -18,13 +18,19 @@ module.exports = function(grunt) {
     //   }
     // },
     sass: {
-      dist: {
+      compressed: {
         options: {
           style: 'compressed'
         },
         files: {
           'css/hw.min.css': ['scss/hw.scss'],
           'css/grp.min.css': ['scss/grp.scss']
+        }
+      },
+      expanded: {
+        files: {
+          'css/hw.css': ['scss/hw.scss'],
+          'css/grp.css': ['scss/grp.scss']
         }
       }
     },

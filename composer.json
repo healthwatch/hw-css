@@ -1,0 +1,10 @@
+{
+    "name": "healthwatch/hw-css",
+    "authors": [
+        {
+            "name": "Ian Escarro",
+            "email": "ian.escarro@gmail.com"
+        }
+    ],
+    "require": {}
+}
