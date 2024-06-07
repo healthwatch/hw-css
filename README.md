@@ -31,6 +31,11 @@ See examples directory for samples.
 \> npm install -g grunt
 ```
 
+Ruby
+https://rubyinstaller.org/
+for sass
+
+
 ```
 \> run-grant.bat
 ```
