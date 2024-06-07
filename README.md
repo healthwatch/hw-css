@@ -19,7 +19,7 @@ bower install healthwatch/hw-css --save
 
 See examples directory for samples.
 
-## screenshot
+## Screenshot
 
 ![test](https://github.com/healthwatch/hw-css/blob/master/examples/test.png "Test")
 
@@ -43,7 +43,7 @@ npm install
 Next install Grunt CLI so we can run the grunt and watch the files changed.
 
 ```
-\> npm install -g grunt
+npm install -g grunt
 ```
 
 ## Development
@@ -51,7 +51,7 @@ Next install Grunt CLI so we can run the grunt and watch the files changed.
 Run grun to listen the the file changes and automatically generate the minified and unminifed CSS into the css directory.
 
 ```
-\> run-grant.bat
+.\run-grant.bat
 ```
 
 All contributions should go to a Pull request to be merged into the master branch. Thanks!
