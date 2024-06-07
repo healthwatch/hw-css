@@ -28,5 +28,9 @@ See examples directory for samples.
 ```
 
 ```
+\> npm install -g grunt
+```
+
+```
 \> run-grant.bat
 ```
