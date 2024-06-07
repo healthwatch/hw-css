@@ -1,11 +1,22 @@
 // Variables
+$primary-default: #0079B5;
+$primary-hover: #005580;
+
+$secondary-default: #D3E3EB;
+$secondary-hover: #B0CEDD;
+
+$tertiary-default: white; // As per Sakae white kuno ni!
+$tertiary-hover: $primary-default;
+
+
+// Previous variables, kept as reference
 $white: #fff;
 $black: #000;
 
 $mercury: #e7e7e7;
 $dove-gray: #737272;
 
-// Remnants colors from the  previous template
+// Remnants colors from the  previous template, might delete
 $wild-sand-light: #eee;
 $wild-sand: #f6f6f6;
 $blizzard-blue: #b0e1f3;
@@ -55,7 +66,7 @@ $header-font: Georgia;
 $text-font: Arial;
 
 $large: 15px;
-$regular: 13px;
+$regular: 18px;
 $small: 11px;
 $extra-small: 9px;
 $extra-extra-small: 8px;

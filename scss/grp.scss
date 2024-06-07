@@ -13,11 +13,23 @@ textarea {
   font: $regular Arial;
 }
 
+h1 {
+  font-size: 26px;
+}
+
 hr {
   margin: 20px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 15px;
 }
 
 @import 'alert';

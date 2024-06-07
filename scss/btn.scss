@@ -1,26 +1,46 @@
 // .btn styles
-.btn {
+.hw-btn-primary {
+  background: $primary-default;
+}
+.hw-btn-primary:hover {
+  background: $primary-hover;
+}
+.hw-btn-secondary {
+  background: $secondary-default;
+  color: $primary-default !important;
+}
+.hw-btn-secondary:hover {
+  background: $secondary-hover;
+}
+.hw-btn-tertiary {
+  background: $tertiary-default;
+}
+.hw-btn-tertiary:hover {
+  background: $tertiary-default;
+}
+.hw-btn {
   // padding: 5px 20px;
-  border-radius: 3px;
+  border-radius: 8px;
   color: white;
   cursor: pointer;
 
   display: inline-block;
-  font-weight: 400;
+  // font-weight: 400;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  line-height: 1.5;
-  // font-size: 1rem;
-  // border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  // white-space: nowrap;
+  // vertical-align: middle;
+  // -webkit-user-select: none;
+  // -moz-user-select: none;
+  // -ms-user-select: none;
+  // user-select: none;
+  // border: 1px solid transparent;
+  // padding: .375rem .75rem;
+  padding: 12px 24px;
+  // line-height: 1.5;
+  // transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+// Previous version based from Bootstrap, might delete!
 .btn-default {
   background: $default;
   color: $text-color;
