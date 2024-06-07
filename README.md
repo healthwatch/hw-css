@@ -23,6 +23,14 @@ See examples directory for samples.
 
 ## Contribute
 
+Ruby
+https://rubyinstaller.org/
+for sass
+
+```
+\> gem install sass
+```
+
 ```
 \> npm install
 ```
@@ -31,9 +39,6 @@ See examples directory for samples.
 \> npm install -g grunt
 ```
 
-Ruby
-https://rubyinstaller.org/
-for sass
 
 
 ```
