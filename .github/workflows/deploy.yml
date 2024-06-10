@@ -16,7 +16,7 @@ jobs:
     - name: Deploy to FTP Server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp://digitalexcellencegroup.com
+        ftp-server: ftp.digitalexcellencegroup.com
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
