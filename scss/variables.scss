@@ -6,15 +6,17 @@ $secondary-default: #D3E3EB;
 $secondary-hover: #B0CEDD;
 
 $tertiary-default: white; // As per Sakae white kuno ni!
-$tertiary-hover: $primary-default;
+$tertiary-hover:$primary-default;
 
+$cancel-default:#F0F0F0;
+$cancel-hover:#CCCCCC;
 
 // Previous variables, kept as reference
 $white: #fff;
-$black: #000;
-
+$black: #333333;
 $mercury: #e7e7e7;
 $dove-gray: #737272;
+$grayscale:#F0F0F0;
 
 // Remnants colors from the  previous template, might delete
 $wild-sand-light: #eee;

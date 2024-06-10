@@ -1,24 +1,74 @@
 // .btn styles
-.hw-btn-primary {
+.btn-primary {
   background: $primary-default;
+  border: 2px solid $primary-default;
 }
-.hw-btn-primary:hover {
+.btn-primary:hover {
   background: $primary-hover;
+  border: 2px solid $primary-hover;
 }
-.hw-btn-secondary {
+.btn-secondary {
   background: $secondary-default;
   color: $primary-default !important;
+  border: 2px solid $secondary-default;
 }
-.hw-btn-secondary:hover {
+.btn-secondary:hover {
   background: $secondary-hover;
+  border: 2px solid $secondary-hover;
 }
-.hw-btn-tertiary {
+.btn-tertiary {
   background: $tertiary-default;
+  color: $primary-default !important;
+  border: 2px solid $primary-default;
 }
-.hw-btn-tertiary:hover {
+.btn-tertiary:hover {
+  background: $tertiary-hover;
+  color: $tertiary-default !important;
+  border: 2px solid $primary-default;
+}
+.btn-disable {
+  background: $secondary-default;
+  color: #8D8F90 !important;
+  border: 2px solid $secondary-default;
+}
+.btn-focused {
+  background: $primary-default;
+  border: 2px solid $secondary-default;
+}
+.btn-focused:focus {
+  background: $primary-default;
+  color: $primary-hover !important;
+  border: 2px solid $primary-default;
+}
+.btn-progress {
+  background: $primary-default;
+  border:2px solid $primary-default;
+}
+.btn-progress:hover{
+  background: $primary-hover;
+  border:2px solid $primary-hover;
+}
+.btn-cancel {
+  background: $cancel-default;
+  color: $black !important;
+  border:2px solid $cancel-default;
+}
+.btn-cancel:hover{
+  background: $cancel-hover;
+  color: $white !important;
+  border:2px solid $cancel-hover;
+}
+.btn-file {
   background: $tertiary-default;
+  color: $primary-default !important;
+  border: 2px solid $primary-default;
 }
-.hw-btn {
+.btn-file:hover{
+  background: $tertiary-hover;
+  color: $tertiary-default !important;
+  border: 2px solid $primary-default;
+}
+.btn {
   // padding: 5px 20px;
   border-radius: 8px;
   color: white;
@@ -41,6 +91,7 @@
 }
 
 // Previous version based from Bootstrap, might delete!
+/*
 .btn-default {
   background: $default;
   color: $text-color;
@@ -100,3 +151,4 @@
   background-color: #e6872e !important;
   border-color: #e6872e !important;
 }
+  */
