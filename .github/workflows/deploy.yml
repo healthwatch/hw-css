@@ -3,7 +3,7 @@ name: Deploy to Server via FTP
 on:
   push:
     branches:
-      - master
+      - 2.0
 
 jobs:
   deploy:
